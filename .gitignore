@@ -1,0 +1,100 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+.DS_Store
+
+# Python cache
+.mypy_cache
+*__pycache__*
+*.egg-info
+*.pyc
+*.pytest_cache
+*.ruff_cache
+*.cache*
+*.config*
+
+# Machine specific
+.idea
+.vscode
+
+# Ignore .env files
+.env
+
+# Ignore .envrc files (used by direnv: https://direnv.net/)
+.envrc
+
+
+# ignore storage dir
+/storage
+.images
+
+# ignore wip dir
+wip
+
+# ignore dist dir
+dist
+
+# ignore virtualenvs
+.venv
+venv*
+phienv*
+aienv*
+
+# ignore tmp dirs
+scratch
+junk
+tmp
+agents.db
+data.db
+
+.ipynb_checkpoints
+
+audio_generations
+
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Database
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
